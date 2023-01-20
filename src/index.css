@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    height:100vh;
+}
+#root{
+    height:100vh;
+}
+
+.App{
+    height:100vh;
+}
+.wrapper{
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+  }
